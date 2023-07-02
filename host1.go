@@ -107,7 +107,7 @@ func runHost() {
 	// monitor host status
 	log.Printf("Host ID : %s", h.ID().String())
 	log.Print("Addresses : ", h.Addrs())
-	log.Print("Type Ctrl-C to stop"))
+	log.Print("Type Ctrl-C to stop")
 
 	for {
 		select {
